@@ -1,0 +1,3 @@
+sys-boot/grub	mount
+dev-lang/python	sqlite
+app-editors/emacs-vcs	gtk2 threads -gtk png svg tiff wide-int xft zlib

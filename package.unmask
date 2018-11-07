@@ -1,0 +1,7 @@
+# required by www-client/lynx-2.8.9_pre16::gentoo[-libressl,ssl,-gnutls]
+# required by @selected
+# required by @world (argument)
+# /usr/portage/profiles/package.mask:
+# Lars Wendler <polynomial-c@gentoo.org> (26 Aug 2016)
+# Masked while being tested and reverse deps aren't fully compatible
+=dev-libs/openssl-1.1.1-r1
