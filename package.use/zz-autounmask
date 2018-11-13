@@ -1,3 +1,4 @@
+
 # package.use# required by app-admin/equo-318::sabayon
 # required by equo (argument)
 sys-apps/file python
@@ -138,3 +139,40 @@ dev-libs/openssl	bindist
 # required by net-libs/webkit-gtk-2.22.2::gentoo
 # required by webkit-gtk (argument)
 >=x11-libs/libxcb-1.13.1 xkb
+# required by dev-lang/R-3.5.1::gentoo
+# required by R (argument)
+>=sys-libs/zlib-1.2.11-r2 minizip
+# required by virtual/fortran-0::gentoo
+# required by sci-libs/blas-reference-20161223::gentoo
+# required by virtual/blas-3.7::gentoo
+# required by dev-lang/R-3.5.1::gentoo
+# required by R (argument)
+>=sys-devel/gcc-8.2.0-r4 fortran
+# required by media-gfx/gimp-2.10.6-r1::gentoo
+# required by gimp (argument)
+>=media-libs/gegl-0.4.8-r1 cairo
+# required by media-gfx/gimp-2.10.6-r1::gentoo
+# required by gimp (argument)
+>=app-text/poppler-0.68.0 cairo
+# required by unity-base/bamf-0.5.3_p2018020702_p0_p01::unity-gentoo
+# required by x11-misc/plank-0.11.4_p2::unity-gentoo
+# required by plank (argument)
+>=dev-libs/libdbusmenu-16.04.1_p20171206_p0_p01 gtk3
+# required by unity-base/bamf-0.5.3_p2018020702_p0_p01::unity-gentoo
+# required by x11-misc/plank-0.11.4_p2::unity-gentoo
+# required by plank (argument)
+>=dev-libs/libxslt-1.1.32 python
+# required by media-sound/pulseaudio-12.2::gentoo[alsa,alsa-plugin]
+# required by media-sound/pavucontrol-3.0::gentoo
+# required by pavucontrol (argument)
+>=media-plugins/alsa-plugins-1.1.7 pulseaudio
+# required by dev-qt/qtwidgets-5.11.2::gentoo[gtk]
+# required by dev-qt/qtdeclarative-5.11.2::gentoo[widgets]
+# required by x11-misc/albert-0.14.22::gentoo
+# required by albert (argument)
+>=dev-qt/qtgui-5.11.2-r1 dbus
+# required by dev-qt/qtcore-5.11.2-r1::gentoo
+# required by dev-qt/qtconcurrent-5.11.2::gentoo
+# required by x11-misc/albert-0.14.22::gentoo
+# required by albert (argument)
+>=dev-libs/libpcre2-10.32 pcre16

@@ -1,5 +1,9 @@
 sys-boot/grub	mount
 dev-lang/python	sqlite
 app-editors/emacs-vcs	gtk2 threads -gtk png svg tiff wide-int xft zlib
-media-gfx/imagemagick	jpeg svg tiff 
+media-gfx/imagemagick	jpeg svg tiff png
 media-libs/mesa	wayland
+sys-devel/gcc	fortran
+media-libs/imlib2	gif png jpeg tiff
+media-video/mplayer	-dvdnav
+x11-base/xorg-server	-minimal
