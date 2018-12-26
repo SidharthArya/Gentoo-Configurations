@@ -1,87 +1,53 @@
+# Display Manager 
+x11-misc/slim	branding
+# System Logger 
 app-admin/sysklogd logrotate
+
+# Bootloader
 sys-boot/grub	mount
+
+# Terminal
+x11-terms/rxvt-unicode	256-color xft pixbuf blink fading-colors font-styles mousewheel perl 
+# Languages
 dev-lang/python	sqlite
+dev-vcs/git	tk
+
+# Editor
 app-editors/emacs-vcs	threads gtk png svg tiff wide-int xft zlib dynamic-loading -xwidgets -athena -games -gconf -gfile -gsettings imagemagick -toolkit-scroll-bars
+app-editors/gvim	acl -gnome -gtk nls selinux cscope debug -gtk3 lua luajit -neXt -netbeans perl python racket ruby session tcl
+# Applications
 media-gfx/imagemagick	jpeg svg tiff png
-media-libs/mesa	wayland
-sys-devel/gcc	fortran
-media-libs/imlib2	gif png jpeg tiff
 media-video/mplayer	-dvdnav
+
+# Libraries
+media-libs/imlib2	gif png jpeg tiff
+app-text/xmlto		text
+app-text/ghostscript-gpl	cups
+dev-libs/libpcre2		jit
+x11-libs/libxcb xkb
+dev-libs/libpcre2 pcre16
+dev-libs/glib dbus
+app-text/poppler	cairo
+media-libs/harfbuzz icu
+dev-libs/xmlsec  nss
+media-libs/gexiv2 introspection python
+
+# Display
 x11-base/xorg-server	-minimal
+dev-python/PyQt5 widgets gui
+dev-qt/qtgui dbus
+
+# Network
 net-wireless/wpa_supplicant	dbus
-# required by app-admin/setools-4.1.1-r1::gentoo[X]
-# required by sys-apps/selinux-python-2.8::gentoo
-# required by sys-apps/policycoreutils-2.8::gentoo
-# required by sec-policy/selinux-dhcp-2.20180701-r1::gentoo
-# required by net-misc/dhcp-4.4.1::gentoo
-# required by net-misc/networkmanager-1.14.4::gentoo[dhclient]
-# required by networkmanager (argument)
->=dev-python/PyQt5-5.10.1-r1 widgets gui
-# required by dev-qt/qtwidgets-5.11.2::gentoo[gtk]
-# required by dev-python/PyQt5-5.10.1-r1::gentoo[widgets]
-# required by app-admin/setools-4.1.1-r1::gentoo[X]
-# required by sys-apps/selinux-python-2.8::gentoo
-# required by sys-apps/policycoreutils-2.8::gentoo
-# required by sec-policy/selinux-dhcp-2.20180701-r1::gentoo
-# required by net-misc/dhcp-4.4.1::gentoo
-# required by net-misc/networkmanager-1.14.4::gentoo[dhclient]
-# required by networkmanager (argument)
->=dev-qt/qtgui-5.11.2-r1 dbus
-# required by x11-libs/libxkbcommon-0.8.2::gentoo[X]
-# required by dev-qt/qtgui-5.11.2-r1::gentoo[libinput]
-# required by dev-qt/qtwidgets-5.11.2::gentoo[gtk]
-# required by dev-python/PyQt5-5.10.1-r1::gentoo[widgets]
-# required by app-admin/setools-4.1.1-r1::gentoo[X]
-# required by sys-apps/selinux-python-2.8::gentoo
-# required by sys-apps/policycoreutils-2.8::gentoo
-# required by sec-policy/selinux-dhcp-2.20180701-r1::gentoo
-# required by net-misc/dhcp-4.4.1::gentoo
-# required by net-misc/networkmanager-1.14.4::gentoo[dhclient]
-# required by networkmanager (argument)
->=x11-libs/libxcb-1.13.1 xkb
-# required by dev-qt/qtcore-5.11.2-r1::gentoo
-# required by dev-qt/qtxml-5.11.2::gentoo
-# required by dev-python/PyQt5-5.10.1-r1::gentoo
-# required by app-admin/setools-4.1.1-r1::gentoo[X]
-# required by sys-apps/selinux-python-2.8::gentoo
-# required by sys-apps/policycoreutils-2.8::gentoo
-# required by sec-policy/selinux-dhcp-2.20180701-r1::gentoo
-# required by net-misc/dhcp-4.4.1::gentoo
-# required by net-misc/networkmanager-1.14.4::gentoo[dhclient]
-# required by networkmanager (argument)
->=dev-libs/libpcre2-10.32 pcre16
-# required by www-client/chromium-71.0.3578.30::gentoo
-# required by chromium (argument)
->=dev-libs/libxml2-2.9.8 icu
-# required by www-client/chromium-71.0.3578.30::gentoo
-# required by chromium (argument)
->=media-libs/harfbuzz-2.1.1 icu
-# required by www-client/chromium-71.0.3578.30::gentoo
-# required by chromium (argument)
->=sys-libs/zlib-1.2.11-r2 minizip
-# required by www-client/chromium-71.0.3578.30::gentoo
-# required by chromium (argument)
->=net-libs/nodejs-9.11.2 inspector
-# required by x11-misc/xdg-utils-1.1.3-r1::gentoo
-# required by dev-lang/R-3.5.1::gentoo[X]
-# required by R (argument)
->=app-text/xmlto-0.0.28-r1 text
-# required by www-client/firefox-63.0.1-r1::gentoo
-# required by firefox (argument)
->=media-libs/libpng-1.6.35-r1 apng
-# required by sys-kernel/genkernel-3.5.3.3::gentoo
-# required by sys-kernel/genkernel (argument)
->=sys-apps/util-linux-2.33 static-libs
-# required by net-print/cups-filters-1.21.3::gentoo[postscript]
-# required by net-print/cups-2.2.9::gentoo
-# required by dev-java/icedtea-bin-3.9.0-r1::gentoo[-multilib,cups]
-# required by virtual/jdk-1.8.0-r3::gentoo
-# required by dev-java/icedtea-sound-1.0.1::gentoo
->=app-text/ghostscript-gpl-9.25-r1 cups
-# required by sys-auth/polkit-0.115-r1::gentoo[-elogind]
-# required by gnome-extra/polkit-gnome-0.105-r1::gentoo
->=sys-auth/consolekit-1.2.1 policykit
-# required by sys-auth/consolekit-1.2.1::gentoo
-# required by sys-auth/polkit-0.115-r1::gentoo[-elogind]
-# required by gnome-extra/polkit-gnome-0.105-r1::gentoo
->=dev-libs/glib-2.56.2 dbus
+
+# Security
+sys-auth/consolekit policykit pm-utils
+gnome-base/gnome-settings-daemon  policykit
+
+# Utilities
+sys-apps/util-linux static-libs
+sys-power/upower	pm-utils
+
+
+# Languages
+dev-scheme/racket	jit
