@@ -17,7 +17,7 @@ app-editors/emacs-vcs	threads gtk png svg tiff wide-int xft zlib dynamic-loading
 app-editors/gvim	acl -gnome -gtk nls selinux cscope debug -gtk3 lua luajit -neXt -netbeans perl python racket ruby session tcl
 # Applications
 media-gfx/imagemagick	jpeg svg tiff png
-media-video/mplayer	-dvdnav
+media-video/mplayer	-dvdnav -a53 aalib bl -bluray bs2b -cddb -cdparanoia cpudetection -debug dga doc dts dv dvb -dvd -dvdnav fbcon ftp ggi gif -joystick jpeg ladspa libmpeg2 libcaca -lirc live lzo mad md5sum mp3 -nas nut openal opengl png pnm pvr -radio rtc rtmp -samba -sdl v4l vcd vorbis
 
 # Libraries
 media-libs/imlib2	gif png jpeg tiff
