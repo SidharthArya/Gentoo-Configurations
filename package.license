@@ -1,1 +1,5 @@
 
+# required by virtual/cdrtools-0::gentoo
+# required by dev-util/catalyst-3.0.3::gentoo
+# required by catalyst (argument)
+>=app-cdr/cdrtools-3.02_alpha09-r2 CDDL-Schily
