@@ -1,3 +1,4 @@
+sys-devel/gcc -vanilla fortran
 # Display Manager 
 x11-misc/slim	branding
 # System Logger 
@@ -13,11 +14,13 @@ dev-lang/python	sqlite
 dev-vcs/git	tk
 
 # Editor
-app-editors/emacs-vcs	threads gtk png svg tiff wide-int xft zlib dynamic-loading -xwidgets -athena -games -gconf -gfile -gsettings imagemagick -toolkit-scroll-bars
+app-editors/emacs-vcs	libxml2 threads gtk png svg tiff wide-int xft zlib dynamic-loading -xwidgets -athena -games -gconf -gfile -gsettings imagemagick -toolkit-scroll-bars
 app-editors/gvim	acl -gnome -gtk nls selinux cscope debug -gtk3 lua luajit -neXt -netbeans perl python racket ruby session tcl
+
 # Applications
 media-gfx/imagemagick	jpeg svg tiff png
 media-video/mplayer	-dvdnav -a53 aalib bl -bluray bs2b -cddb -cdparanoia cpudetection -debug dga doc dts dv dvb -dvd -dvdnav fbcon ftp ggi gif -joystick jpeg ladspa libmpeg2 libcaca -lirc live lzo mad md5sum mp3 -nas nut openal opengl png pnm pvr -radio rtc rtmp -samba -sdl v4l vcd vorbis
+media-gfx/gimp	jpeg png smp svg tiffudev xpm 
 
 # Libraries
 media-libs/imlib2	gif png jpeg tiff
@@ -31,6 +34,7 @@ app-text/poppler	cairo
 media-libs/harfbuzz icu
 dev-libs/xmlsec  nss
 media-libs/gexiv2 introspection python
+dev-libs/libxml2  python
 
 # Display
 x11-base/xorg-server	-minimal
@@ -39,6 +43,7 @@ dev-qt/qtgui dbus
 
 # Network
 net-wireless/wpa_supplicant	dbus
+net-misc/wicd	gtk libnotify pm-utils
 
 # Security
 sys-auth/consolekit policykit pm-utils
@@ -47,7 +52,14 @@ gnome-base/gnome-settings-daemon  policykit
 # Utilities
 sys-apps/util-linux static-libs
 sys-power/upower	pm-utils
+gnome-extra/zenity	libnotify
 
+# Mail
+net-mail/mu	emacs
 
 # Languages
 dev-scheme/racket	jit
+sys-devel/clang		default-libcxx xml
+sys-devel/clang-runtime	libcxx
+# Misc
+media-video/ffmpeg 	gnutls libressl openssl

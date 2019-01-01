@@ -1,0 +1,93 @@
+# Window Managers
+# x11-wm/xmonad
+# x11-wm/xmonad-contrib
+# dev-haskell/x11
+x11-wm/fluxbox
+
+# Windows Control
+x11-misc/wmctrl
+
+# Compositor
+x11-misc/compton
+
+# Login Manager 
+lxde-base/lxdm
+x11-apps/xdm
+x11-misc/slim
+
+# Display Server Protocol 
+x11-base/xorg-server
+
+# Office
+app-office/libreoffice-bin
+
+# Image Editor 
+media-gfx/gimp
+media-gfx/imagemagick
+media-gfx/feh
+
+
+# Text Editor
+app-editors/emacs-vcs
+app-editors/nano
+
+# File Manager
+app-misc/mc
+x11-misc/pcmanfm
+
+# Video / Audio Player 
+media-video/mplayer
+media-video/vlc
+
+# Web Browser
+www-client/firefox-bin
+www-client/links
+
+# Firewall
+net-firewall/iptables
+net-firewall/ipset
+
+# Audio
+media-sound/pavucontrol
+
+# Disks
+sys-fs/udisks
+
+# Power Management
+sys-power/upower
+sys-power/pm-utils
+
+# Terminal
+x11-terms/rxvt-unicode
+x11-terms/xterm
+
+
+# System Monitor 
+sys-process/htop
+sys-process/nmon
+
+# Network
+net-vpn/tor
+net-misc/dhcpcd
+net-misc/wicd
+
+# Mail 
+net-mail/mu
+net-mail/offlineimap
+mail-mta/msmtp
+
+# Misc
+x11-apps/xsetroot
+dev-haskell/data-default
+dev-haskell/semigroups
+dev-haskell/mtl
+dev-haskell/extensible-exceptions
+dev-haskell/setlocale
+dev-haskell/utf8-string
+dev-haskell/old-time
+dev-haskell/random
+gnome-extra/zenity
+
+# kernel
+sys-kernel/gentoo-sources
+

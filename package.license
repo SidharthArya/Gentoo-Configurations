@@ -3,3 +3,10 @@
 # required by dev-util/catalyst-3.0.3::gentoo
 # required by catalyst (argument)
 >=app-cdr/cdrtools-3.02_alpha09-r2 CDDL-Schily
+# required by sys-kernel/genkernel-3.5.3.3::gentoo[firmware]
+# required by genkernel (argument)
+=sys-kernel/linux-firmware-20181216 freedist linux-firmware no-source-code
+# required by mrouted (argument)
+>=net-misc/mrouted-3.9.5-r1 Stanford
+# required by gentoo-sources (argument)
+>=sys-kernel/gentoo-sources-4.14.83:4.14.83 linux-firmware

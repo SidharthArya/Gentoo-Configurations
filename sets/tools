@@ -1,0 +1,51 @@
+#Permissions
+app-admin/sudo
+
+# Portage
+app-eselect/eselect-repository
+
+# Multiplexer
+app-misc/tmux
+
+# PC Management tools
+sys-apps/lshw
+sys-apps/pciutils
+sys-fs/btrfs-progs
+sys-fs/e2fsprogs
+dev-util/gperf
+
+# Version Control
+dev-vcs/git
+
+# Game
+games-misc/fortune-mod
+
+# Network
+net-ftp/ftp
+net-misc/curl
+net-misc/dhcpcd
+net-misc/mrouted
+
+# Bootloader and Kernel Related
+sys-boot/grub
+sys-boot/os-prober
+sys-kernel/genkernel
+
+# X 
+x11-apps/xsetroot
+x11-misc/xdg-user-dirs
+
+# Portage
+app-portage/eix
+app-portage/gentoolkit
+app-portage/repoman
+app-portage/layman
+
+# Cron Job
+sys-process/dcron
+
+# system Logger 
+app-admin/metalog
+
+# Compile
+dev-util/ccache

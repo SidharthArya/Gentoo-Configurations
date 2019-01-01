@@ -1,0 +1,9 @@
+dev-lang/ruby
+dev-lang/clojure
+dev-lang/ghc
+dev-lang/gprolog
+dev-lang/perl
+dev-lang/php
+dev-lang/rust
+dev-lang/go
+sys-devel/clang
