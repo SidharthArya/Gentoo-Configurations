@@ -1,0 +1,24 @@
+app-crypt/openpgp-keys-gentoo-release
+
+# initramfs
+app-portage/gentoolkit
+
+# Init
+sys-apps/openrc
+
+# Bootloader and Kernel Related
+sys-boot/grub
+sys-boot/os-prober
+sys-kernel/genkernel
+
+# Portage
+app-portage/eix
+app-portage/gentoolkit
+app-portage/repoman
+app-portage/layman
+app-portage/genlop
+app-portage/porthole
+
+
+# SSl
+dev-libs/libressl

@@ -1,0 +1,105 @@
+# Window Managers
+# x11-wm/xmonad
+# x11-wm/xmonad-contrib
+# dev-haskell/x11
+x11-wm/fluxbox
+x11-wm/xmonad-contrib::localrepo
+x11-wm/xmonad::localrepo
+
+# Windows Control
+x11-misc/wmctrl
+
+# Compositor
+x11-misc/compton
+
+# Login Manager 
+# lxde-base/lxdm
+x11-apps/xdm
+x11-misc/sddm
+# x11-misc/slim
+
+# Display Server Protocol 
+x11-base/xorg-server
+
+# Office
+app-office/libreoffice-bin
+app-office/gnumeric
+app-office/ledger
+app-office/sc
+app-text/zathura
+app-text/zathura-djvu
+app-text/zathura-pdf-poppler
+
+# Image Editor 
+media-gfx/gimp
+media-gfx/imagemagick
+media-gfx/feh
+media-gfx/sxiv
+
+
+# Text Editor
+app-editors/emacs-vcs
+
+# File Manager
+x11-misc/pcmanfm
+lxde-base/lxmenu-data
+app-misc/ranger
+
+# Video / Audio Player 
+media-video/mplayer
+media-video/mpv
+media-video/obs-studio
+# media-video/vlc
+
+# Web Browser
+www-client/firefox-bin
+www-client/google-chrome
+www-client/links
+www-client/lynx
+www-client/qutebrowser
+www-client/w3m
+www-plugins/pdfjs
+
+# Firewall
+net-firewall/iptables
+net-firewall/ipset
+
+# Audio
+media-sound/pavucontrol
+
+
+# Terminal
+x11-terms/rxvt-unicode
+x11-terms/xterm
+
+# Mail 
+net-mail/mu
+net-mail/offlineimap
+mail-mta/msmtp
+
+# Screen Cast
+net-misc/tigervnc
+x11-misc/x11vnc
+
+
+# Misc
+dev-haskell/data-default
+dev-haskell/semigroups
+dev-haskell/mtl
+dev-haskell/extensible-exceptions
+dev-haskell/setlocale
+dev-haskell/utf8-string
+dev-haskell/old-time
+dev-haskell/random
+gnome-extra/zenity
+dev-qt/qtnetwork::libressl
+net-dns/c-ares
+net-im/pidgin
+net-misc/youtube-dl
+x11-apps/setxkbmap
+x11-apps/xev
+x11-apps/xinput
+x11-apps/xmodmap
+x11-misc/xcalib
+x11-misc/xdotool
+x11-plugins/purple-facebook

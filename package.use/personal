@@ -1,0 +1,75 @@
+sys-devel/gcc -vanilla fortran
+# Display Manager 
+x11-misc/slim	-branding
+# System Logger 
+app-admin/sysklogd logrotate
+
+# Bootloader
+sys-boot/grub	mount
+
+# Terminal
+x11-terms/rxvt-unicode	256-color xft pixbuf blink fading-colors font-styles mousewheel perl 
+# Languages
+dev-lang/python	sqlite
+dev-vcs/git	tk
+
+# Editor
+app-editors/emacs-vcs	libxml2 threads gtk png svg tiff wide-int xft zlib dynamic-loading -xwidgets -athena -games -gconf -gfile -gsettings imagemagick -toolkit-scroll-bars
+app-editors/gvim	acl -gnome -gtk nls selinux cscope debug -gtk3 lua luajit -neXt -netbeans perl python racket ruby session tcl
+
+# Applications
+media-gfx/imagemagick	jpeg svg tiff png
+media-video/mplayer	-dvdnav -a53 aalib bl -bluray bs2b -cddb -cdparanoia cpudetection -debug dga doc dts dv dvb -dvd -dvdnav fbcon ftp ggi gif -joystick jpeg ladspa libmpeg2 libcaca -lirc live lzo mad md5sum mp3 -nas nut openal opengl png pnm pvr -radio rtc rtmp -samba -sdl v4l vcd vorbis
+media-gfx/gimp	jpeg png smp svg tiffudev xpm 
+app-office/ledger emacs 
+sci-mathematics/octave curl gnuplot graphicsmagick opengl portaudio 
+# Libraries
+media-libs/imlib2	gif png jpeg tiff
+app-text/xmlto		text
+app-text/ghostscript-gpl	cups
+dev-libs/libpcre2		jit
+x11-libs/libxcb xkb
+dev-libs/libpcre2 pcre16
+dev-libs/glib dbus
+app-text/poppler	cairo
+media-libs/harfbuzz icu
+dev-libs/xmlsec  nss
+media-libs/gexiv2 introspection python
+dev-libs/libxml2  python
+dev-util/dialog	-minimal
+app-crypt/pinentry	gtk -ncurses
+# Display
+x11-base/xorg-server	-minimal
+dev-python/PyQt5 widgets gui
+dev-qt/qtgui dbus
+
+# Network
+net-misc/dhcpcd	-embedded ipv6 udev
+net-wireless/wpa_supplicant	dbus
+net-misc/wicd	gtk libnotify pm-utils
+net-analyzer/wireshark	gtk libxml2
+net-p2p/transmission	gtk
+# Security
+sys-auth/consolekit policykit pm-utils
+gnome-base/gnome-settings-daemon  policykit
+
+# Utilities
+sys-apps/util-linux static-libs
+sys-power/upower	pm-utils
+gnome-extra/zenity	libnotify
+
+# Mail
+net-mail/mu	emacs
+
+# Languages
+dev-scheme/racket	jit
+sys-devel/clang		default-libcxx xml
+sys-devel/clang-runtime	libcxx
+net-libs/nodejs		bundled-ssl
+# Misc
+media-video/ffmpeg 	gnutls libressl openssl
+app-emulation/qemu	sdl
+
+# Compositor
+x11-misc/compton	opengl dbus
+app-text/texlive	context detex dvi2tty epspdf extra games graphics humanities jadetex luatex metapost pdfannotextractor png pstricks publishers science tex4ht texi2html truetype xml xetex

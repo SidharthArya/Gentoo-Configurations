@@ -1,0 +1,59 @@
+
+# required by app-editors/neovim-0.3.3::gentoo
+# required by neovim (argument)
+=dev-libs/msgpack-3.1.1 ~amd64
+# required by neovim (argument)
+=app-editors/neovim-0.3.3 ~amd64
+# required by app-editors/neovim-0.3.3::gentoo[tui]
+# required by neovim (argument)
+=dev-libs/unibilium-2.0.0 ~amd64
+# required by purple-facebook (argument)
+=x11-plugins/purple-facebook-20190113 ~amd64
+# required by xcalib (argument)
+=x11-misc/xcalib-0.9.0_p20161210 ~amd64
+# required by obs-studio (argument)
+=media-video/obs-studio-22.0.3 ~amd64
+# required by qtnetwork::libressl (argument)
+=dev-qt/qtnetwork-5.11.3 ~amd64
+# required by pacman (argument)
+=sys-apps/pacman-5.0.2-r2 ~amd64
+# required by inxi (argument)
+=sys-apps/inxi-2.3.56 ~amd64
+# required by x11-wm/stumpwm-18.05::gentoo
+# required by stumpwm (argument)
+=dev-lisp/clx-0.7.5 ~amd64
+# required by stumpwm (argument)
+=x11-wm/stumpwm-18.05 ~amd64
+# required by x11-wm/stumpwm-18.05::gentoo
+# required by stumpwm (argument)
+=dev-lisp/alexandria-20171029 ~amd64
+# required by qtile (argument)
+=x11-wm/qtile-0.12.0 ~amd64
+# required by stumpwm-contrib (argument)
+=x11-wm/stumpwm-contrib-20180128 ~amd64
+# required by duktape (argument)
+=dev-lang/duktape-2.2.1 ~amd64
+# required by dev-libs/swaylock-1.3::gentoo[doc]
+# required by dev-libs/sway-1.0_rc1::gentoo[swaylock]
+# required by sway (argument)
+=app-text/scdoc-1.8.1 ~amd64
+# required by dev-libs/sway-1.0_rc1::gentoo
+# required by sway (argument)
+=dev-libs/wlroots-0.3 ~amd64
+# required by dev-libs/sway-1.0_rc1::gentoo[swaylock]
+# required by sway (argument)
+=dev-libs/swaylock-1.3 ~amd64
+# required by dev-libs/sway-1.0_rc1::gentoo[swayidle]
+# required by sway (argument)
+=dev-libs/swayidle-1.2 ~amd64
+# required by sway (argument)
+=dev-libs/sway-1.0_rc1 ~amd64
+# required by www-client/qutebrowser-1.5.2-r1::gentoo
+# required by qutebrowser (argument)
+=dev-python/pypeg2-2.15.2 ~amd64
+# required by qutebrowser (argument)
+=www-client/qutebrowser-1.5.2-r1 ~amd64
+# required by midori (argument)
+=www-client/midori-0.5.11-r2 ~amd64
+# required by pdfjs (argument)
+=www-plugins/pdfjs-1.9.426 ~amd64

@@ -1,0 +1,93 @@
+# Basic 
+app-editors/nano
+app-misc/mc 
+
+#Permissions
+app-admin/sudo
+
+# Multiplexer
+app-misc/tmux
+
+# PC Management tools
+sys-apps/lshw
+sys-apps/pciutils
+dev-util/strace
+x11-apps/xbacklight
+x11-apps/xrandr
+x11-misc/redshift
+# File System
+sys-fs/btrfs-progs
+sys-fs/e2fsprogs
+sys-fs/udisks
+app-admin/testdisk
+sys-apps/usbutils
+sys-fs/mtpfs
+sys-fs/multipath-tools
+
+# Power
+sys-power/upower
+sys-power/pm-utils
+# Process
+sys-process/htop
+sys-process/nmon
+
+# Version Control
+dev-vcs/git
+dev-vcs/subversion
+
+# Cryptography
+app-crypt/pinentry
+
+# Game
+games-misc/fortune-mod
+
+# Network
+net-misc/wicd
+net-vpn/tor
+net-ftp/ftp
+net-misc/curl
+net-misc/dhcpcd
+net-misc/mrouted
+net-analyzer/tcpdump
+net-analyzer/wireshark
+
+
+# X 
+x11-apps/xsetroot
+x11-misc/xdg-user-dirs
+
+# Cron Job
+sys-process/dcron
+
+# system Logger 
+app-admin/metalog
+
+# Compile
+dev-util/ccache
+
+# kernel
+sys-kernel/gentoo-sources
+
+# Emulation
+app-emulation/qemu
+net-misc/bridge-utils
+app-emulation/docker
+app-emulation/lxc
+
+# Torrent
+net-p2p/transmission
+
+# Antivirus
+app-antivirus/clamav
+
+# Misc
+app-text/texlive
+sys-devel/pmake
+dev-util/dialog
+app-misc/fzf
+sys-libs/gpm
+
+# Archive
+app-arch/p7zip
+app-arch/rar
+

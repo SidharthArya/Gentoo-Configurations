@@ -1,0 +1,4 @@
+
+# required by @tools (argument)
+>=net-misc/mrouted-3.9.5-r1 Stanford
+sys-kernel/ck-sources linux-firmware

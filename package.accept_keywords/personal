@@ -1,0 +1,4 @@
+app-editors/emacs-vcs ~amd64
+# required by @desktop (argument)
+=net-mail/mu-1.0 ~amd64
+sys-kernel/ck-sources	~amd64

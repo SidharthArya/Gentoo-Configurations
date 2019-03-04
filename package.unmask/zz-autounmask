@@ -1,0 +1,6 @@
+# required by net-libs/webkit-gtk-2.18.6::gentoo
+# required by webkit-gtk (argument)
+# /usr/portage/profiles/base/package.mask:
+# Andreas Sturmlechner <asturm@gentoo.org> (15 Jul 2018)
+# Old ICU is unsupported. ICU 58 only remains for 13.0 based profiles.
+=dev-libs/icu-58.2-r1

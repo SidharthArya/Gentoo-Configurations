@@ -1,0 +1,11 @@
+# required by gentoo-sources (argument)
+>=sys-kernel/gentoo-sources-4.14.83:4.14.83 linux-firmware
+# required by sys-kernel/genkernel-3.5.3.3::gentoo[firmware]
+# required by @tools (argument)
+=sys-kernel/linux-firmware-20190114 freedist linux-firmware no-source-code
+# required by google-chrome (argument)
+>=www-client/google-chrome-72.0.3626.96 google-chrome
+# required by rar (argument)
+=app-arch/rar-5.6.0_p20180624 RAR
+# required by app-editors/teco (argument)
+>=app-editors/teco-1.00-r4 freedist

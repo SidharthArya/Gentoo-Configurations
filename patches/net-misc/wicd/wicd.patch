@@ -1,0 +1,8 @@
+--- a/curses/wicd-curses.py
++++ b/curses/wicd-curses.py
+@@ -532,7 +532,7 @@ class WiredComboBox(ComboBox):
+     def get_selected_profile(self):
+         """Get the selected wired profile"""
+         loc = self.get_focus()[1]
+-        return self.theList[loc]
++        return self.theList[loc-1]
